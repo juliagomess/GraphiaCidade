@@ -1,0 +1,96 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-config-security"
+  ],
+  "rules": {
+    "no-console": false,
+    "interface-over-type-literal": false,
+    "no-duplicate-variable": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "tsr-detect-possible-timing-attacks": false,
+    "max-line-length": [
+      true,
+      120
+    ],
+    "no-irregular-whitespace": true,
+    "no-unnecessary-callback-wrapper": true,
+    "no-trailing-whitespace": true,
+    "no-consecutive-blank-lines": true,
+    "no-namespace": [
+      true,
+      "allow-declarations"
+    ],
+    "newline-before-return": true,
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "libraries",
+            "match": "^(?!\\.)(?=(?!@mobile/|~/))",
+            "order": 1
+          },
+          {
+            "name": "modules alias",
+            "match": "^(@mobile/|~/)",
+            "order": 2
+          },
+          {
+            "name": "directories",
+            "match": "^\\./",
+            "order": 3
+          }
+        ]
+      }
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-interfaces"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "avoid-template"
+    ]
+  },
+  "linterOptions": {
+    "rootDir": ".",
+    "include": [
+      "packages/**/*.ts",
+      "packages/**/*.tsx"
+    ],
+    "exclude": [
+      "packages/mobile/android/**/*",
+      "packages/mobile/ios/**/*",
+      "packages/mobile/node_modules/**/*",
+      "packages/shared/node_modules/**/*",
+      "packages/portal/node_modules/**/*",
+      "packages/portal/src/serviceWorker.ts",
+      "packages/ibk/node_modules/**/*",
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "**/*.snap",
+      "**/*.svg.tsx"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "jwtToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY0MjMwMTQ4OCwiZXhwIjoxNjQyMzg3ODg4fQ.QwaBoTuwuPFWtRGrG0MFqt_F7Slv4uwhCmwXbF50nfgJdzqRwN2-U4uk4BiGEKHxYX2_Mzsf3jQhOGE4ptrRyg",
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY0MjMwMTQ4OCwiZXhwIjoxNjQyMzg3OTE4fQ.nKVpxUq4oLsnyL4yFei6jti-7Wzfs2J32wB16PHPAf4_RPIoZP1RZ6nDX6Kopg-XJ1er9ia3HXWwXQBnx2k6MA",
+  "type": "Bearer",
+  "id": "61a57be28966444f6c0b7369",
+  "username": "admin",
+  "email": "admin@admin.com",
+  "roles": [
+      "ROLE_ADMIN"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "id": "618b226578f41b7562af1881",
+    "username": "Nome do usuario",
+    "email": "emaildousuario@admin.com",
+    "roles": [
+        "ROLE_ADMIN"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-config-security",
+    "tslint-react-hooks"
+  ],
+  "rules": {
+    "no-console": true,
+    "no-empty": false,
+    "interface-over-type-literal": false,
+    "no-duplicate-variable": true,
+    "indent": [true],
+    "tsr-detect-possible-timing-attacks": false,
+    "max-line-length": [true, 120],
+    "no-irregular-whitespace": true,
+    "no-unnecessary-callback-wrapper": true,
+    "no-trailing-whitespace": true,
+    "no-consecutive-blank-lines": true,
+    "no-namespace": [true, "allow-declarations"],
+    "newline-before-return": true,
+    "member-access": [true, "no-public"],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "libraries",
+            "match": "^(?!\\.)(?=(?!@portal/|~/))",
+            "order": 1
+          },
+          {
+            "name": "modules alias",
+            "match": "^(@portal/|~/)",
+            "order": 2
+          },
+          {
+            "name": "directories",
+            "match": "^\\./",
+            "order": 3
+          }
+        ]
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "quotemark": [
+      false,
+      "single",
+      "jsx-double",
+      "avoid-escape",
+      "avoid-template"
+    ],
+    "react-hooks-nesting": "error"
+  },
+  "linterOptions": {
+    "rootDir": ".",
+    "include": ["packages/**/*.ts", "packages/**/*.tsx"],
+    "exclude": [
+      "packages/mobile/android/**/*",
+      "packages/mobile/ios/**/*",
+      "packages/mobile/node_modules/**/*",
+      "packages/shared/node_modules/**/*",
+      "packages/portal/node_modules/**/*",
+      "packages/portal/src/serviceWorker.ts",
+      "packages/ibk/node_modules/**/*",
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "**/*.snap",
+      "**/*.svg.tsx",
+      "src/*.less"
+    ]
+  }
+}

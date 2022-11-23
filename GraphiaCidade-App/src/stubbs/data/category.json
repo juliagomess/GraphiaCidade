@@ -1,0 +1,18 @@
+[
+  {
+    "id": "61a57bed8966444f6c0b736a",
+    "createdAt": "2021-11-30T01:18Z",
+    "updatedAt": "2021-12-06T21:10Z",
+    "author": "admin",
+    "subCategories": ["Buracos na via", "Falta de energia", "Ventos fortes"],
+    "categoryName": "Comunidade"
+  },
+  {
+    "id": "61a5835d678998750e931cf2",
+    "createdAt": "2021-11-30T01:50Z",
+    "updatedAt": "2021-12-06T21:11Z",
+    "author": "admin",
+    "subCategories": ["Enchente", "Lixo"],
+    "categoryName": "Cidade"
+  }
+]

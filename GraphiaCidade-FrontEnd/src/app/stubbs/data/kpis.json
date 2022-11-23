@@ -1,0 +1,6 @@
+[
+  { "value": "12", "name": "users" },
+  { "value": "432", "name": "reports" },
+  { "value": "31", "name": "reports_last_24" },
+  { "value": "9", "name": "reports_last_hour" }
+]

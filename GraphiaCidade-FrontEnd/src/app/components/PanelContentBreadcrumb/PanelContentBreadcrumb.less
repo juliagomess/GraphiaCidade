@@ -1,0 +1,45 @@
+.panel-content-breadcrumb {
+  padding: 15px 0;
+
+  &__menu {
+    padding: 0;
+    margin: 0;
+
+    &__item {
+      display: inline-block;
+      list-style: none;
+      margin-right: 15px;
+      padding-right: 15px;
+      position: relative;
+
+      &:after {
+        content: '>';
+        position: absolute;
+        top: 2px;
+        right: -3px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &__link {
+        color: black;
+        cursor: default;
+
+        &:hover {
+          color: black;
+        }
+
+        &--active {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

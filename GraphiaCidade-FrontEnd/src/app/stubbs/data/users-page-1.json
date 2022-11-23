@@ -1,0 +1,43 @@
+{
+    "totalPages": 2,
+    "totalElements": 14,
+    "last": true,
+    "size": 10,
+    "rows": [
+        {
+            "id": "11",
+            "username": "Armando Dalla",
+            "email": "armando@adminpage2.com",
+            "roles": [
+                "ROLE_ADMIN"
+            ]
+        },
+        {
+            "id": "12",
+            "username": "Bruno Bannwart",
+            "email": "bruno@adminpage2.com",
+            "roles": [
+                "ROLE_ADMIN",
+                "ROLE_WEB_USER"
+            ]
+        },
+        {
+            "id": "13",
+            "username": "Pedro Catalini",
+            "email": "pedro@adminpage2.com",
+            "roles": [
+                "ROLE_ADMIN",
+                "ROLE_WEB_USER",
+                "ROLE_APP_USER"
+            ]
+        },
+        {
+            "id": "14",
+            "username": "Carlos Pinpolho",
+            "email": "carlos@usuariowebpage2.com",
+            "roles": [
+                "ROLE_WEB_USER"
+            ]
+        }
+    ]
+}

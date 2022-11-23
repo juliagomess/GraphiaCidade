@@ -1,0 +1,130 @@
+[
+    {
+        "request": {
+          "url": "^/v1/login/signin$",
+          "query": {},
+          "post": null,
+          "method": "GET"
+        },
+        "response": {
+          "status": 200,
+          "headers": {
+            "Content-Type": "application/json",
+            "Acess-Control-Allow-Origin": "*"
+          },
+          "file": "data/signin.json"
+        }
+    },
+    {
+      "request": {
+        "url": "^/v1/my-reports$",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/my-reports.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/map$",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/map.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/reports$",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/reports.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/category$",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/category.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/profile$",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/profile.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/reports/*",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/reports_id.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/v1/category/*",
+        "query": {},
+        "post": null,
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/category_id.json"
+      }
+    }
+]

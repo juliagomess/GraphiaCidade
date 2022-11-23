@@ -1,0 +1,5 @@
+{
+    "jwtToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYzNjAwMDU5NCwiZXhwIjoxNjM2MDg2OTk0fQ.1PJowcQ3SM8A4i628HvHng8zCQq8DWLxdOqkZyBYIcss5fwyaYixtKGjMpvXw9baNSE3Sbs0b8r6Da4x-N3yyQ",
+    "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYzNjAwMDU5NCwiZXhwIjoxNjM2MDg3MDI0fQ.GywuhYTz9c3ahY67sZc10-8RcHqFWps2JbsPOt9Wx0zI2AJHrRqrFH1KNo6xew_8ug30Tvc1OpyIP9Fa5s7ahQ",
+    "type": "Bearer"
+}

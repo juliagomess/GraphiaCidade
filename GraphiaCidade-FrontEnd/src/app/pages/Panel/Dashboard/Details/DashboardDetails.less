@@ -1,0 +1,44 @@
+.panel-dashboard {
+  width: 100%;
+  flex-wrap: wrap;
+
+  &__title {
+    padding: 0 0 15px 0;
+
+    &--inner {
+      padding-top: 30px;
+    }
+  }
+
+  &__bars {
+    padding: 30px 0;
+  }
+
+  &__welcome {
+    color: @primary-color;
+    font-size: 25px;
+    margin: 0 0 30px 0;
+  }
+
+  &__kpi {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &--inner {
+      padding-top: 15px;
+    }
+
+    &__indicators {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    &__table {
+      padding-top: 30px;
+      height: 32em;
+      width: 100%;
+    }
+  }
+}

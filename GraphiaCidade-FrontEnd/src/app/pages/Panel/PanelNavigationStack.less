@@ -1,0 +1,16 @@
+.panel-navigation-stack {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+
+  &__sidebar {
+    flex-basis: 0;
+    border-right: 1px solid @border-color;
+  }
+
+  &__content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+}

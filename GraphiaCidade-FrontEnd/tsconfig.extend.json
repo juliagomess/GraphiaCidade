@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@portal": ["app"],
+      "@portal/*": ["app/*"],
+
+      "~/assets": ["app/assets"],
+      "~/assets/*": ["app/assets/*"],
+
+      "~/config": ["app/config"],
+      "~/config/*": ["app/config/*"],
+
+      "~/enum": ["app/enum"],
+      "~/enum/*": ["app/enum/*"],
+
+      "~/hooks": ["app/hooks"],
+      "~/hooks/*": ["app/hooks/*"],
+
+      "~/i18n": ["app/i18n"],
+      "~/i18n/*": ["app/i18n/*"],
+
+      "~/models": ["app/models"],
+      "~/models/*": ["app/models/*"],
+
+      "~/services": ["app/services"],
+      "~/services/*": ["app/services/*"],
+
+      "~/actions": ["app/actions"],
+      "~/actions/*": ["app/actions/*"],
+
+      "~/containers": ["app/containers"],
+      "~/containers/*": ["app/containers/*"],
+
+      "~/pages": ["app/pages"],
+      "~/pages/*": ["app/pages/*"],
+
+      "~/reducers": ["app/reducers"],
+      "~/reducers/*": ["app/reducers/*"],
+
+      "~/components": ["app/components"],
+      "~/components/*": ["app/components/*"],
+
+      "~/repositories": ["app/repositories"],
+      "~/repositories/*": ["app/repositories/*"],
+
+      "~/styles": ["app/styles"],
+      "~/styles/*": ["app/styles/*"],
+
+      "~/utils": ["app/utils"],
+      "~/utils/*": ["app/utils/*"]
+    }
+  }
+}

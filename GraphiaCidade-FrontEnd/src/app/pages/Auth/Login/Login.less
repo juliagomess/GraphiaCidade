@@ -1,0 +1,60 @@
+.login {
+  background-color: @secondary-color;
+  color: @gray-text-dark;
+  min-height: 100vh;
+  height: 100%;
+
+  &__form {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+
+    &__input {
+      color: @primary-color;
+    }
+
+    &__input:focus {
+      color: @primary-color;
+    }
+
+    &__inner {
+      margin-bottom: 10em;
+
+      &__logo {
+        display: block;
+        margin: 30px auto;
+        max-width: 100%;
+        width: 200px;
+        height: 200px;
+      }
+
+      &__card {
+        background-color: @white;
+        padding: 32px 17px 18px;
+        border: 1px solid @white;
+      }
+
+      &__button {
+        padding-top: 42px;
+      }
+
+      &__bottom {
+        text-align: center;
+        padding-top: 30px;
+
+        &__login {
+          color: @primary-color;
+          transition: 0.3s ease-out;
+          text-decoration: none;
+        }
+
+        &__login:hover {
+          color: @primary-color;
+          text-decoration: underline;
+          transition: 0.3s ease-out;
+        }
+      }
+    }
+  }
+}

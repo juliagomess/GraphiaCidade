@@ -1,0 +1,43 @@
+.panel-content-search-bar {
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+
+      &--search {
+        flex: 1;
+      }
+
+      &--status,
+      &--advanced-filters {
+        min-width: 200px;
+        padding-left: 15px;
+      }
+
+      &__label {
+        position: relative;
+        top: -1px;
+
+        &__icon {
+          display: inline-block;
+          padding: 0 10px 0 13px  ;
+          position: relative;
+          top: -2px;
+        }
+
+        &__title {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &__advanced-filter {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid @border-color;
+  }
+}

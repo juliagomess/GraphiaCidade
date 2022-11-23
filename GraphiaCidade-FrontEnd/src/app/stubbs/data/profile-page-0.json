@@ -1,0 +1,29 @@
+{
+    "totalPages": 1,
+    "totalElements": 3,
+    "last": true,
+    "size": 3,
+    "rows": [
+        {
+            "id": "1",
+            "profileName": "Transeunte",
+            "createdAt": "2021-09-10T11:20Z",
+            "updateAt": null,
+            "author": "Bruno Bannwart"
+        },
+        {
+            "id": "2",
+            "profileName": "Geógrafo",
+            "createdAt": "2021-11-10T21:21Z",
+            "updateAt": null,
+            "author": "Armando Dalla Costa"
+        },
+        {
+            "id": "3",
+            "profileName": "Consultor",
+            "createdAt": "2021-12-01T18:01Z",
+            "updateAt": null,
+            "author": "Armando Dalla Costa"
+        }
+    ]
+}

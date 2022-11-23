@@ -1,0 +1,32 @@
+{
+    "totalPages": 1,
+    "totalElements": 2,
+    "last": true,
+    "size": 2,
+    "rows": [
+        {
+            "id": "1",
+            "categoryName": "Cidade",
+            "createdAt": "2021-12-02T01:20Z",
+            "updateAt": null,
+            "author": "Pedro Banwart",
+            "subCategories": [
+                "Falta de Energia",
+                "Tempestade",
+                "Manifestação"
+            ]
+        },
+        {
+            "id": "2",
+            "categoryName": "Comunidade",
+            "createdAt": "2021-11-10T11:20Z",
+            "updateAt": null,
+            "author": "Bruno Angelo",
+            "subCategories": [
+                "Lixo",
+                "Assalto",
+                "Enchente"
+            ]
+        }
+    ]
+}

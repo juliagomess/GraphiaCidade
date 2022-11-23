@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Graphia Cidade",
+    "slug": "Graphia",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8bc34a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyATCiWThclJA6gCr2rapXOrFvaNFvoksL4"
+        }
+      },
+      "package": "extensao.projeto.pucc.br"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

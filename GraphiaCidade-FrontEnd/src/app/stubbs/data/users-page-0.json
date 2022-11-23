@@ -1,0 +1,91 @@
+{
+    "totalPages": 2,
+    "totalElements": 14,
+    "last": false,
+    "size": 10,
+    "rows": [
+        {
+            "id": "1",
+            "username": "Armando Dalla",
+            "email": "armando@admin.com",
+            "roles": [
+                "ROLE_ADMIN"
+            ]
+        },
+        {
+            "id": "2",
+            "username": "Bruno Bannwart",
+            "email": "bruno@admin.com",
+            "roles": [
+                "ROLE_ADMIN",
+                "ROLE_WEB_USER"
+            ]
+        },
+        {
+            "id": "3",
+            "username": "Pedro Catalini",
+            "email": "pedro@admin.com",
+            "roles": [
+                "ROLE_ADMIN",
+                "ROLE_WEB_USER",
+                "ROLE_APP_USER"
+            ]
+        },
+        {
+            "id": "4",
+            "username": "Carlos Pinpolho",
+            "email": "carlos@usuarioweb.com",
+            "roles": [
+                "ROLE_WEB_USER"
+            ]
+        },
+        {
+            "id": "5",
+            "username": "Ednaldo Pereira",
+            "email": "ednaldo@usuarioweb.com",
+            "roles": [
+                "ROLE_WEB_USER"
+            ]
+        },
+        {
+            "id": "6",
+            "username": "Edina Machado",
+            "email": "edina@usuarioweb.com",
+            "roles": [
+                "ROLE_WEB_USER"
+            ]
+        },
+        {
+            "id": "7",
+            "username": "Agnaldo Faria de Lima",
+            "email": "Agnaldo@usuarioapp.com",
+            "roles": [
+                "ROLE_APP_USER"
+            ]
+        },
+        {
+            "id": "8",
+            "username": "Maycon Fagner",
+            "email": "maycon@usuarioapp.com",
+            "roles": [
+                "ROLE_APP_USER"
+            ]
+        },
+        {
+            "id": "9",
+            "username": "Andressa de Carmo",
+            "email": "andressa@usuarioapp.com",
+            "roles": [
+                "ROLE_APP_USER"
+            ]
+        },
+        {
+            "id": "10",
+            "username": "Carla Souza e Silva",
+            "email": "carla@usuarioapp.com",
+            "roles": [
+                "ROLE_APP_USER"
+            ]
+        }
+    ]
+}

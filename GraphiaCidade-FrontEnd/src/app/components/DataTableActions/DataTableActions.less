@@ -1,0 +1,38 @@
+.data-table-actions {
+  text-align: center;
+  width: 100%;
+
+  &__button {
+    cursor: pointer;
+  }
+
+  &__items {
+    padding: 5px 0;
+
+    &__single {
+      padding: 4px 10px;
+
+      &__link {
+        color: @gray-text-dark;
+
+        &:hover {
+          color: black;
+        }
+
+        &__icon {
+          display: inline-block;
+          width: 23px;
+          text-align: left;
+
+          img {
+            width: 12px;
+          }
+        }
+
+        &__text {
+          font-size: 10pt;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+[
+    {
+        "request": {
+          "url": "^/v1/login/signin$",
+          "query": {},
+          "post": null,
+          "method": "GET",
+          "headers": {
+            "authorization": "Basic YWRtaW5AYWRtaW4uY29tOnNlbmhh"
+          }
+        },
+        "response": {
+          "status": 200,
+          "headers": {
+            "Content-Type": "application/json",
+            "Acess-Control-Allow-Origin": "*"
+          },
+          "file": "data/auth-admin-success.json"
+        }
+    },
+    {
+      "request": {
+        "url": "^/v1/login/signin$",
+        "query": {},
+        "post": null,
+        "method": "GET",
+        "headers": {
+          "authorization": "Basic dXN1YXJpb0B1c3VhcmlvLmNvbTpzZW5oYQ=="
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "Acess-Control-Allow-Origin": "*"
+        },
+        "file": "data/auth-user-success.json"
+      }
+  },
+  {
+    "request": {
+      "url": "^/v1/login/refresh$",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/auth-refresh.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/login/chpass$",
+      "query": {},
+      "post": null,
+      "method": "POST"
+    },
+    "response": {
+      "status": 204,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      }
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/reports$",
+      "query": {
+        "page": 0
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/reports-page-0.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/reports$",
+      "query": {
+        "page": 1
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/reports-page-1.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/map$",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/reports-map.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/reports/*",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/reports-details.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/users$",
+      "query": {
+        "page": 0
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/users-page-0.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/users$",
+      "query": {
+        "page": 1
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/users-page-1.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/users$",
+      "query": {
+        "page": 1
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/users-page-1.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/users/*",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/users-details.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/profile$",
+      "query": {
+        "page": 0
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/profile-page-0.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/profile/*",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/profile-details.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/category$",
+      "query": {
+        "page": 0
+      },
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/category-page-0.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/category/*",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/category-details.json"
+    }
+  },
+  {
+    "request": {
+      "url": "^/v1/kpis",
+      "query": {},
+      "post": null,
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Acess-Control-Allow-Origin": "*"
+      },
+      "file": "data/kpis.json"
+    }
+  }
+]

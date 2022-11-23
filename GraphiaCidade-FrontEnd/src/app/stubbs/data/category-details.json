@@ -1,0 +1,13 @@
+{
+    "id": "1",
+    "categoryName": "Cidade",
+    "createdAt": "2021-11-10T11:20Z",
+    "updateAt": null,
+    "author": "Pedro Banwart",
+    "subCategories": [
+        "Buraco",
+        "Falta de Energia",
+        "Enchente",
+        "Lixo acumulado"
+    ]
+}

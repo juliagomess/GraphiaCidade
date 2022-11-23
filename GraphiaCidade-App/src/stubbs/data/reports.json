@@ -1,0 +1,38 @@
+{
+  "totalPages": 8,
+  "totalElements": 16,
+  "last": false,
+  "size": 2,
+  "rows": [
+      {
+          "id": "61a81f72bfcaa4190c11d053",
+          "createdAt": "2021-12-02T01:20Z",
+          "updatedAt": null,
+          "author": null,
+          "updateAuthor": null,
+          "category": "cidade",
+          "problemType": "buracos na via",
+          "profileType": "morador",
+          "description": "Tem um buraco aqui na minha rua 42",
+          "photo": null,
+          "audio": null,
+          "longitude": "-47.421249",
+          "latitude": "-23.759528"
+      },
+      {
+          "id": "61a820f05e6999249694a44a",
+          "createdAt": "2021-12-02T01:27Z",
+          "updatedAt": null,
+          "author": null,
+          "updateAuthor": null,
+          "category": "cidade",
+          "problemType": "buracos na via",
+          "profileType": "morador",
+          "description": "Tem um buraco aqui na minha rua 42 2",
+          "photo": null,
+          "audio": null,
+          "longitude": "-47.421249",
+          "latitude": "-23.759528"
+      }
+  ]
+}

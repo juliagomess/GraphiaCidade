@@ -1,0 +1,109 @@
+.panel-content-top-bar {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 35px 0 0 30px;
+
+    &__item {
+      padding-right: 45px;
+      position: relative;
+
+      &--active {
+        &:after {
+          content: '';
+          width: 67%;
+          height: 6px;
+          background-color: @primary-color;
+          position: absolute;
+          top: -35px;
+          left: 0;
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+      }
+
+      &__link {
+        &__title {
+          font-size: 12pt;
+          color: @gray-text-light;
+        }
+      }
+    }
+  }
+
+  &__right {
+    padding: 35px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    &__bell {
+      padding-top: 2px;
+
+      &__text {
+        text-transform: uppercase;
+      }
+
+      &__image {
+        color: @primary-color;
+        width: 30px;
+      }
+
+      &__badge {
+        padding: 1.5px 6.5px;
+        border-radius: 50%;
+        background: @primary-color;
+        color: white;
+
+        &--hide {
+          padding: 2.5px 7.5px;
+          border-radius: 50%;
+          background: @primary-color;
+          color: white;
+        }
+      }
+    }
+
+    &__user-dropdown {
+      padding: 0 30px;
+
+      &__wrapper {
+        display: flex;
+        flex-direction: row;
+      }
+
+      &__thumb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        border: 1px solid @primary-color;
+
+        &__image {
+          width: 16px;
+        }
+      }
+
+      &__name {
+        padding-left: 10px;
+        position: relative;
+        top: 3px;
+      }
+
+      &__logout {
+        color: @primary-color;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+}
